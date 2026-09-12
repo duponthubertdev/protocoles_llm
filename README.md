@@ -21,11 +21,11 @@ compléments spécialisés. Chaque protocole précise quand les consulter.
 
 | Document | Objet |
 | :--- | :--- |
-| [conception.md](regles/conception.md) | Conception générale |
-| [codage.md](regles/codage.md) | Conventions de code et de documentation |
-| [conception_de_code_pour_llm.md](llm/conception_de_code_pour_llm.md) | Conception adaptée à l’analyse et à la génération par un LLM |
-| [gestion_des_erreurs.md](regles/gestion_des_erreurs.md) | Contrats d’erreur, exceptions et diagnostics |
-| [gestion_de_letat.md](regles/gestion_de_letat.md) | État mutable, transitions et coordination |
+| [conception.md](referentiels/conception.md) | Conception générale |
+| [codage.md](referentiels/codage.md) | Conventions de code et de documentation |
+| [conception_de_code_pour_llm.md](referentiels/conception_de_code_pour_llm.md) | Conception adaptée à l’analyse et à la génération par un LLM |
+| [gestion_des_erreurs.md](referentiels/gestion_des_erreurs.md) | Contrats d’erreur, exceptions et diagnostics |
+| [gestion_de_letat.md](referentiels/gestion_de_letat.md) | État mutable, transitions et coordination |
 
 ## Vérifier le paquet
 

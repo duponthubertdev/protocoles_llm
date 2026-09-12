@@ -43,7 +43,7 @@ Tout fichier absent de cette liste est en lecture seule.
 | Une entrée illisible sort par une seconde branche, qui n'incrémente rien | est | `C:\Users\hdupo\git\projet-fictif\source\collecte\recapitulatif.ext`, ligne 97 |
 | Aucun consommateur du récapitulatif ne dépend de la valeur nulle actuelle | est | `C:\Users\hdupo\git\projet-fictif\source\rapport\lecture.ext`, ligne 33 |
 | Les cas de validation voisins se nomment `sujet_comportement`, sans préfixe numérique | est | `C:\Users\hdupo\git\projet-fictif\validation\collecte\`, les six fichiers du dossier |
-| Le nouveau code doit respecter le style existant du projet | exigé | `../../../../regles/codage.md`, section « Conventions de codage » |
+| Le nouveau code doit respecter le style existant du projet | exigé | `../../../../referentiels/codage.md`, section « Conventions de codage » |
 | Le récapitulatif doit annoncer toute entrée non traitée, quelle qu'en soit la cause | exigé | `C:\Users\hdupo\git\projet-fictif\doc\collecte\attendus.md`, ligne 45 |
 
 ## 4. Cadrage

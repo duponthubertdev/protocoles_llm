@@ -135,9 +135,9 @@ pour qu'ils s'appliquent.
 
 | Document | Ce qu'il régit |
 |---|---|
-| `../../regles/conception.md` | La conception : principe central, KISS, DRY, YAGNI, responsabilité unique, cohésion et couplage, OCP, séparation modèle métier et orchestration, évitement du null, immuabilité, fonctions pures, état borné, testabilité, composition, gestion des erreurs, fail fast |
-| `../../llm/conception_de_code_pour_llm.md` | La conception LLM-friendly, **parce que le LLM est l'outil d'assistance principal du développeur** : réduction de la variance, dépendances explicites, patterns consistants, unités analysables dans une fenêtre réduite, absence de magie implicite |
-| `../../regles/codage.md` | Le code écrit : commentaires, conventions de codage, jeu de caractères, conventions git, nommage des modules, types, fonctions et variables, documentation obligatoire |
+| `../../referentiels/conception.md` | La conception : principe central, KISS, DRY, YAGNI, responsabilité unique, cohésion et couplage, OCP, séparation modèle métier et orchestration, évitement du null, immuabilité, fonctions pures, état borné, testabilité, composition, gestion des erreurs, fail fast |
+| `../../referentiels/conception_de_code_pour_llm.md` | La conception LLM-friendly, **parce que le LLM est l'outil d'assistance principal du développeur** : réduction de la variance, dépendances explicites, patterns consistants, unités analysables dans une fenêtre réduite, absence de magie implicite |
+| `../../referentiels/codage.md` | Le code écrit : commentaires, conventions de codage, jeu de caractères, conventions git, nommage des modules, types, fonctions et variables, documentation obligatoire |
 
 **Ils se lisent en précondition, avant le pas 1.** Ils régissent aussi les documents de la conduite --
 commentaires, jeu de caractères, documentation, messages de commit --, et le document de conduite est
@@ -151,7 +151,7 @@ une convention de nommage découverte à la relecture se paie en réécriture.
 source qui vieillirait sans que rien ne le signale, et un agent qui lit le résumé croirait
 légitimement avoir tout lu.
 
-`../../regles/conception.md` renvoie lui-même à `../../regles/gestion_des_erreurs.md` pour la hiérarchie d'exceptions et le
+`../../referentiels/conception.md` renvoie lui-même à `../../referentiels/gestion_des_erreurs.md` pour la hiérarchie d'exceptions et le
 logging : ce renvoi fait partie du référentiel et se suit quand la tâche touche au traitement des
 erreurs.
 
@@ -235,7 +235,7 @@ document existant, et n'ont aucune autorité.
 
 **La convention se relève en deux faits, jamais en un.** Ce que montrent les fichiers voisins est de
 nature *est*, et se source sur ces fichiers. L'obligation de s'y conformer est de nature *exigé*, et
-se source sur `../../regles/codage.md`. Quand les deux divergent, l'écart se signale plutôt qu'il ne se
+se source sur `../../referentiels/codage.md`. Quand les deux divergent, l'écart se signale plutôt qu'il ne se
 propage.
 
 **3. Cadrer.** Fixer ce qui est décidé, énumérer ce qui reste à observer. Le cadrage **ne contient

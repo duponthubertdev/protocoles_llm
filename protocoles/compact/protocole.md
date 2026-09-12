@@ -115,16 +115,16 @@ dans `feat`, `fix`, `docs`, `chore`.
 **Trois documents sont normatifs pour tout ce que la conduite écrit**, et se lisent en précondition,
 **avant le pas 1** :
 
-- `../../regles/conception.md` -- la conception ;
-- `../../llm/conception_de_code_pour_llm.md` -- la conception LLM-friendly,
+- `../../referentiels/conception.md` -- la conception ;
+- `../../referentiels/conception_de_code_pour_llm.md` -- la conception LLM-friendly,
   parce que le LLM est l'outil d'assistance principal du développeur ;
-- `../../regles/codage.md` -- le code écrit, les commentaires, le jeu de
+- `../../referentiels/codage.md` -- le code écrit, les commentaires, le jeu de
   caractères, les conventions git, la documentation obligatoire.
 
 Ils régissent aussi le document de la conduite, qui est le premier fichier écrit : les lire plus
 tard reviendrait à ne les appliquer qu'ensuite. Ils ne se recopient pas et ne se résument pas -- un
 résumé serait une seconde source, et un agent qui le lit croirait légitimement avoir tout lu.
-`../../regles/conception.md` renvoie lui-même à `../../regles/gestion_des_erreurs.md`, et ce renvoi fait partie du
+`../../referentiels/conception.md` renvoie lui-même à `../../referentiels/gestion_des_erreurs.md`, et ce renvoi fait partie du
 référentiel.
 
 **Ce que le dépôt impose en plus reste dû** -- contrôle statique, style, typage.

@@ -864,9 +864,9 @@ s'appliquent.
 
 | Document | Ce qu'il apporte |
 |---|---|
-| `../../regles/conception.md` | Règles de conception : conception orientée résultat, KISS, DRY, **YAGNI**, responsabilité unique, cohésion forte et couplage faible, OCP, séparation modèle métier et orchestration, évitement du null, immuabilité |
-| `../../regles/codage.md` | Conventions de codage et de nommage : principes directeurs, commentaires, conventions git, nommage des modules, types, fonctions, variables, documentation |
-| `../../llm/conception_de_code_pour_llm.md` | Conception LLM-friendly : réduction de la variance, noms auto-décrivants, classes courtes et cohésives, patterns consistants, documentation à exemples complets, messages d'erreur explicites, paramètres explicites plutôt qu'état implicite, abstractions non spéculatives, constantes nommées |
+| `../../referentiels/conception.md` | Règles de conception : conception orientée résultat, KISS, DRY, **YAGNI**, responsabilité unique, cohésion forte et couplage faible, OCP, séparation modèle métier et orchestration, évitement du null, immuabilité |
+| `../../referentiels/codage.md` | Conventions de codage et de nommage : principes directeurs, commentaires, conventions git, nommage des modules, types, fonctions, variables, documentation |
+| `../../referentiels/conception_de_code_pour_llm.md` | Conception LLM-friendly : réduction de la variance, noms auto-décrivants, classes courtes et cohésives, patterns consistants, documentation à exemples complets, messages d'erreur explicites, paramètres explicites plutôt qu'état implicite, abstractions non spéculatives, constantes nommées |
 
 Les références relatives de cette section se résolvent depuis le dossier de ce fichier de
 protocole, jamais depuis le répertoire courant. Avant de les lire, les convertir en chemins absolus
