@@ -1,6 +1,6 @@
 # protocoles_llm
 
-Protocoles de développement logiciel avec des agents LLM : compact, standard et étendu,
+Protocoles de développement logiciel avec des agents LLM : compact et standard,
 avec un dispositif de coordination de campagne. Ce dépôt contient leurs gabarits, vérificateurs,
 données de test et références nécessaires. Il s’utilise indépendamment de l’atelier personnel.
 
@@ -16,7 +16,7 @@ Aucun fichier d’instructions propre à un fournisseur d’IA n’est nécessai
 
 ## Références incluses
 
-Les trois protocoles imposent les trois premières références ; la conception renvoie aux deux
+Les deux protocoles imposent les trois premières références ; la conception renvoie aux deux
 compléments spécialisés. Chaque protocole précise quand les consulter.
 
 | Document | Objet |
@@ -35,7 +35,6 @@ Depuis la racine :
 
 ```text
 python protocoles/standard/tests/lancer_les_tests.py
-python protocoles/etendu/tests/lancer_les_tests.py
 ```
 
 Le compact ne possède pas de vérificateur dédié.
